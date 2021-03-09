@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-search-results" %}
+
+{% block title %}
+    <title>Resultado da busca</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="./styles/search-results.css">
+{% endblock styles %}
+
+{% block content %}
+    <div id="page-search-results">
+
+        {% include "partials/page-header.html" %}
+
+        <main>
+            <h4>
+                <strong>Pontos</strong>
+                encontrados
+            </h4>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1613166093303-e0dfaa9442b4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fHJlY3ljbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Coletoria">
+                    <h1>Coletoria</h1>
+                    <h3>Resíduos Eletrônicos, Lâmpadas</h3>
+                    <p>
+                        Rio do Sul, Santa Catarina
+                        <br>
+                        Guilherme Gembalia, Jardim América
+                        <br>
+                        Número 260
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1542739674-b449a8938b59?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHJlY3ljbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Papersider">
+                    <h1>Papersider</h1>
+                    <h3>Papéis e Papelão</h3>
+                    <p>
+                        Rio do Sul, Santa Catarina
+                        <br>
+                        Guilherme Gembalia, Jardim América
+                        <br>
+                        Número 260
+                    </p>
+                </div>
+            </div>
+
+        </main>
+
+    {% endblock content %}

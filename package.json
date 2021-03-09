@@ -1,0 +1,26 @@
+{
+  "name": "NLW1",
+  "version": "1.0.0",
+  "description": "Next Level Week novice project",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argente123/Nlwi1.git"
+  },
+  "keywords": [],
+  "author": "José Daniel",
+  "bugs": {
+    "url": "https://github.com/argente123/Nlwi1/issues"
+  },
+  "homepage": "https://github.com/argente123/Nlwi1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
