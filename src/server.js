@@ -1,5 +1,7 @@
 const express = require("express")
 const server = express()
+//pegar o banco de dados
+const db = require("./database/db")
 //.use faz a pasta public ficar como se estivesse junto do views
 server.use(express.static("public"))
 //Template engine para deixar o html dinâmico
