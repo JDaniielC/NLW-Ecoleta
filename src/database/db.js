@@ -22,7 +22,7 @@ module.exports = db
 //             items TEXT
 //         );
 //     `)
-
+//inserir dados
 //     const query = `
 //     INSERT INTO places (
 //         image,
