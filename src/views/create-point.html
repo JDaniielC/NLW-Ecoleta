@@ -78,32 +78,32 @@
                     <span>Selecione um ou mais ítens abaixo</span>
                 </legend>
                 <div class="items-grid" >
-                    <li data-id="1" class="selected">
+                    <li data-id="Lâmpadas" class="selected">
                         <img src="./assets/lampadas.svg" alt="Lâmpadas">
                         <span>Lâmpadas</span>
                     </li>
 
-                    <li data-id="2">
+                    <li data-id="Pilhas e Batérias">
                         <img src="./assets/baterias.svg" alt="Pilhas e Batérias">
                         <span>Pilhas e Batérias</span>
                     </li>
 
-                    <li data-id="3">
+                    <li data-id="Papéis e Papelão">
                         <img src="./assets/papeis-papelao.svg" alt="Papéis e Papelão">
                         <span>Papéis e Papelão</span>
                     </li>
 
-                    <li data-id="4">
+                    <li data-id="Resíduos Eletrônicos">
                         <img src="./assets/eletronicos.svg" alt="Resíduos Eletrônicos">
                         <span>Resíduos Eletrônicos</span>
                     </li>
 
-                    <li data-id="5">
+                    <li data-id="Resíduos Orgânicos">
                         <img src="./assets/organicos.svg" alt="Resíduos Orgânicos">
                         <span>Resíduos Orgânicos</span>
                     </li>
 
-                    <li data-id="6">
+                    <li data-id="Oléo de Cozinha">
                         <img src="./assets/oleo.svg" alt="Oléo de Cozinha">
                         <span>Oléo de Cozinha</span>
                     </li>
@@ -126,6 +126,8 @@
     {%include "partials/point-created.html"%}
     {% endif %}
 {% endblock modal %}
+
+
 
 {% block scripts %}
     <script src="./scripts/create-point.js"></script>

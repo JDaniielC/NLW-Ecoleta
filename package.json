@@ -18,10 +18,10 @@
   "homepage": "https://github.com/argente123/Nlwi1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nunjucks": "^3.2.3",
-    "sqlite3": "^5.0.2"
+    "nunjucks": "^3.2.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "sqlite3": "^5.0.2"
   }
 }
