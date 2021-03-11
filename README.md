@@ -22,15 +22,15 @@ Abaixo a página de resultados, que está bem anexada ao banco de dados do servi
 
 Há também a questão de responsividade, onde é você adaptar tudo que fez para telas maiores ou menores que seu ambiente de desenvolvimento:
 
-![home image](.github/resp1)
+![home image](.github/resp1.png)
 
 Acima a página inicial e abaixo a página de procura.
 
-![home image](.github/resp2)
+![home image](.github/resp2.png)
 
 Certas partes de CSS ele deixou para que fizessemos sozinhos, embora não seja tão complicado depois que repete diversas vezes.
 
-![home image](.github/resp3)
+![home image](.github/resp3.png)
 
 Com apoio das aulas é possível iniciar bem no conhecimento de desenvolvimento web, pretendo continuar aprendendo e postar aqui os resultados.
 
