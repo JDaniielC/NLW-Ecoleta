@@ -1,5 +1,3 @@
-# Nlwi1
-
 <h4 align="center">
   🚀 NextLevelWeek 1.0
 </h4>
